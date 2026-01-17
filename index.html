@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO & Metadata -->
+    <title>Lesdy Marlody Rodríguez</title>
+    <meta name="description" content="Dignidad y felicidad para nuestra gente." />
+    <link rel="icon" type="image/x-icon" href="https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/aprocalg-icon.ico" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Lesdy Marlody Rodríguez" />
+    <meta property="og:description" content="Dignidad y felicidad para nuestra gente." />
+    <meta property="og:image" content="https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/lesdy__2_og.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Lesdy Marlody Rodríguez" />
+    <meta name="twitter:description" content="Dignidad y felicidad para nuestra gente." />
+    <meta name="twitter:image" content="https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/lesdy__2_og.png" />
+    
+    <!-- Google Fonts: Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Tailwind Config -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              // Principal: Violeta Esperanza
+              jungle: {
+                DEFAULT: '#8C4AF4',
+                dark: '#6A2BC0',
+                light: '#F3E8FF', // Light violet background
+              },
+              // Complementario 2: Naranja (Used for highlights previously gold)
+              gold: {
+                DEFAULT: '#F47B20',
+                dark: '#C95D0E',
+                light: '#FFEDD5',
+              },
+              // Secundario: Azul Comunidad (Used for accents/earth elements)
+              earth: {
+                DEFAULT: '#0072C6',
+                dark: '#005A9E',
+                light: '#E0F2FF',
+              },
+              // Complementario: Verde
+              success: {
+                DEFAULT: '#21B67A',
+              },
+              offwhite: '#FFFFFF', // Pure white backgrounds
+              textdark: '#000000', // Black text
+              textmuted: '#374151', // Dark Gray for subtitles
+            },
+            fontFamily: {
+              sans: ['Montserrat', 'sans-serif'],
+            },
+            backgroundImage: {
+              'hero-gradient': 'linear-gradient(to right, rgba(140, 74, 244, 0.9), rgba(0, 114, 198, 0.6))',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      /* Fix for horizontal overflow */
+      html, body {
+        width: 100%;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: 'Montserrat', sans-serif;
+        color: #000000;
+        background-color: #FFFFFF;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.32.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
