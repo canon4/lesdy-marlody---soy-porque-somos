@@ -1,3 +1,4 @@
+import { constants } from "buffer";
 import React from "react";
 
 type Props = {
@@ -7,7 +8,7 @@ type Props = {
 const WhatsAppIcon = ({ size = 24 }: Props) => {
   return (
     <img
-      src="icon\Digital_Glyph_White.svg"
+      src="./icon/Digital_Glyph_White.svg"
       alt="WhatsApp"
       width={size}
       height={size}
