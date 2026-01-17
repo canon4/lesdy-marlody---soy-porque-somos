@@ -1,6 +1,7 @@
 import React from "react";
 import { ASSETS } from "../constants";
 import { Instagram, Facebook, Twitter } from "lucide-react";
+import WhatsAppIcon from "./WhatsAppIcon";
 
 const Footer: React.FC = () => {
   return (
@@ -53,10 +54,10 @@ const Footer: React.FC = () => {
                 <Facebook size={20} />
               </a>
               <a
-                href="#"
+                href="https://wa.me/573107799507"
                 className="p-2 bg-gray-800 rounded-full hover:bg-jungle transition-colors"
               >
-                <Twitter size={20} />
+                <WhatsAppIcon size={20} />
               </a>
             </div>
           </div>
