@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { ASSETS } from '../constants';
+import React, { useState, useEffect } from "react";
+import { ASSETS } from "../constants";
 
 const TopBanner: React.FC = () => {
   return (
@@ -10,9 +10,9 @@ const TopBanner: React.FC = () => {
       */}
       <picture>
         <source media="(min-width: 768px)" srcSet={ASSETS.images.heroDesktop} />
-        <img 
-          src={ASSETS.images.heroMobile} 
-          alt="Banner Campaña Lesdy Marlody" 
+        <img
+          src={ASSETS.images.heroDesktop}
+          alt="Banner Campaña Lesdy Marlody"
           className="w-full h-auto object-cover block"
         />
       </picture>

@@ -1,19 +1,27 @@
-import React from 'react';
-import { Leaf, Users, Heart, MapPin, Smile, Mic } from 'lucide-react';
+import React from "react";
+import { Leaf, Users, Heart, MapPin, Smile, Mic } from "lucide-react";
 
 export const ASSETS = {
   logos: {
-    white: "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/logo_marlody_def.png",
-    black: "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/logo_marlody_def.png",
-    ubuntu: "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/funamu-logo.png",
+    white:
+      "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/logo_marlody_def.png",
+    black:
+      "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/logo_marlody_def.png",
+    ubuntu:
+      "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/funamu-logo.png",
   },
   images: {
     main: "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/marlody_imagen_01.jpg",
-    heroBgMobile: "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/marlody_imagen_01.jpeg",
-    heroDesktop: "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/banner_desk_marlody.jpeg",
-    heroMobile: "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/banner_mobile_marlody.jpeg",
-    secondary: "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/marlody_imagen_02.jpg",
-    howToVote: "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/como_votar_lesdy.jpeg",
+    heroBgMobile:
+      "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/marlody_imagen_01.jpeg",
+    heroDesktop:
+      "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/banner_desk_marlody.jpeg",
+    heroMobile:
+      "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/banner_mobile_marlody.jpeg",
+    secondary:
+      "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/marlody_imagen_02.jpg",
+    howToVote:
+      "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/como_votar_lesdy.jpeg",
     gallery: [
       "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/marlody_imagen_03.jpg",
       "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/marlody_imagen_04.jpeg",
@@ -21,7 +29,8 @@ export const ASSETS = {
       "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/marlody_imagen_06.jpeg",
     ],
   },
-  video: "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/marlody_video_01.mp4",
+  video:
+    "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/marlody_video_01.mp4",
 };
 
 export const CONTENT = {
@@ -30,7 +39,8 @@ export const CONTENT = {
     titleHighlight: "Una mujer que cumple su palabra",
     role: "Candidata a la Cámara de Representantes – Curul Especial de Paz",
     region: "Caquetá | Territorio, dignidad y verdad",
-    description: "Soy mujer afroamazónica, víctima del conflicto armado y he dedicado mi vida a cumplirle a mi gente. Hoy doy un paso más para representar al Caquetá en el Congreso.",
+    description:
+      "Soy mujer afroamazónica, víctima del conflicto armado y he dedicado mi vida a cumplirle a mi gente. Hoy doy un paso más para representar al Caquetá en el Congreso.",
   },
   values: [
     {
@@ -53,7 +63,8 @@ export const CONTENT = {
     {
       id: 1,
       title: "Dignidad con oportunidades reales",
-      description: "Impulsar condiciones de vida justas para las comunidades afro y rurales, con enfoque territorial.",
+      description:
+        "Impulsar condiciones de vida justas para las comunidades afro y rurales, con enfoque territorial.",
       icon: <Leaf />,
     },
     {
@@ -65,13 +76,15 @@ export const CONTENT = {
     {
       id: 3,
       title: "Cultura, identidad y memoria viva",
-      description: "La identidad afroamazónica como fuerza de futuro, no como nota al margen.",
+      description:
+        "La identidad afroamazónica como fuerza de futuro, no como nota al margen.",
       icon: <Mic />,
     },
     {
       id: 4,
       title: "Territorio que decide",
-      description: "Que la inversión, los programas y la política pública nazcan de escuchar a la comunidad.",
+      description:
+        "Que la inversión, los programas y la política pública nazcan de escuchar a la comunidad.",
       icon: <MapPin />,
     },
   ],
