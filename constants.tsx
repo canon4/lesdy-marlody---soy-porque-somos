@@ -17,7 +17,7 @@ export const ASSETS = {
     heroDesktop:
       "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/banner_desk_marlody.jpeg",
     heroMobile:
-      "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/banner_mobile_marlody.jpeg",
+      "https://res.cloudinary.com/daivwknum/image/upload/v1769030319/PORTADA_CEL_yfd9wc.png",
     secondary:
       "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/marlody_imagen_02.jpg",
     howToVote:
@@ -30,7 +30,7 @@ export const ASSETS = {
     ],
   },
   video:
-    "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/marlody_video_01.mp4",
+    "https://res.cloudinary.com/daivwknum/raw/upload/v1769033500/DSGxxXbDbcw_hza5ee",
 };
 
 export const CONTENT = {
