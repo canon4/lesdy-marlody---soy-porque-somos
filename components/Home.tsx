@@ -15,6 +15,7 @@ import CurulPage from "./CurulPage";
 import RecognitionsPage from "./RecognitionsPage";
 import Footer from "./Footer";
 import FloatingWhatsApp from "./FloatingWhatsApp";
+import FlotingSocialNetwork from "./FlotingSocialNetwork";
 
 type ViewState = "home" | "proposals" | "curul" | "recognitions";
 
@@ -44,7 +45,7 @@ const Home = () => {
         {currentView === "home" ? (
           <>
             <TopBanner />
-            <Hero />
+            <Hero onNavigate={handleNavigate} />
             <Manifesto />
             <Bio />
             <Trajectory />
@@ -65,6 +66,7 @@ const Home = () => {
 
       <Footer />
       <FloatingWhatsApp />
+      <FlotingSocialNetwork />
     </div>
   );
 };
