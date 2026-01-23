@@ -16,6 +16,8 @@ import RecognitionsPage from "./RecognitionsPage";
 import Footer from "./Footer";
 import FloatingWhatsApp from "./FloatingWhatsApp";
 import FlotingSocialNetwork from "./FlotingSocialNetwork";
+import ImageCarousel from "./ImageCarousel";
+import { ASSETS } from "../constants";
 
 type ViewState = "home" | "proposals" | "curul" | "recognitions";
 
@@ -45,6 +47,12 @@ const Home = () => {
         {currentView === "home" ? (
           <>
             <TopBanner />
+            <div className="lg:hidden ">
+              <ImageCarousel
+                images={ASSETS.images.imageCarousel}
+                interval={4000}
+              />
+            </div>
             <Hero onNavigate={handleNavigate} />
             <Manifesto />
             <Bio />
