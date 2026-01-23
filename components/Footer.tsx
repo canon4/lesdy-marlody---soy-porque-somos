@@ -2,10 +2,11 @@ import React from "react";
 import { ASSETS } from "../constants";
 import { Instagram, Facebook, Twitter } from "lucide-react";
 import WhatsAppIcon from "./WhatsAppIcon";
+import TiktokIcon from "./TiktokIcon";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-textdark text-white pt-16 pb-8">
+    <footer className="bg-jungle text-white pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-8 border-b border-gray-700 pb-12">
           <div className="text-center md:text-left">
@@ -54,16 +55,16 @@ const Footer: React.FC = () => {
                 <Facebook size={20} />
               </a>
               <a
-                href="https://wa.me/573107799507"
+                href="https://www.tiktok.com/@marlodyrodriguezq"
                 className="p-2 bg-gray-800 rounded-full hover:bg-jungle transition-colors"
               >
-                <WhatsAppIcon size={20} />
+                <TiktokIcon size={20} />
               </a>
             </div>
           </div>
         </div>
 
-        <div className="pt-8 text-center text-sm text-gray-500">
+        <div className="pt-8 text-center text-sm text-gold-500">
           <p className="italic mb-2">
             Para sumarte al movimiento, recibir información o ser voluntaria/o,
             escríbenos por WhatsApp.
