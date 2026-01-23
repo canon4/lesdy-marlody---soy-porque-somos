@@ -9,6 +9,16 @@ export const ASSETS = {
       "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/logo_marlody_def.png",
     ubuntu:
       "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/funamu-logo.png",
+    educacion:
+      "https://res.cloudinary.com/daivwknum/image/upload/e_trim/v1769191830/11_xyoivp.png",
+    cultura:
+      "https://res.cloudinary.com/daivwknum/image/upload/e_trim/v1769191836/15_mxn0od.png",
+    reparacion:
+      "https://res.cloudinary.com/daivwknum/image/upload/e_trim/v1769191831/14_ivewql.png",
+    desarrollo:
+      "https://res.cloudinary.com/daivwknum/image/upload/e_trim/v1769191830/13_to4ogh.png",
+    turismo:
+      "https://res.cloudinary.com/daivwknum/image/upload/e_trim/v1769191830/12_kphsay.png",
   },
   images: {
     main: "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/marlody_imagen_01.jpg",
