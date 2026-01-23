@@ -28,6 +28,13 @@ export const ASSETS = {
       "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/marlody_imagen_05.jpeg",
       "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/marlody_imagen_06.jpeg",
     ],
+    imageCarousel: [
+      "https://res.cloudinary.com/daivwknum/image/upload/v1769119740/1_pb86xs.png",
+      "https://res.cloudinary.com/daivwknum/image/upload/v1769119741/2_k5ctcg.png",
+      "https://res.cloudinary.com/daivwknum/image/upload/v1769119742/3_zaeknn.png",
+      "https://res.cloudinary.com/daivwknum/image/upload/v1769119741/4_szqxns.png",
+      "https://res.cloudinary.com/daivwknum/image/upload/v1769188984/5_mqfs7s.png",
+    ],
   },
   video:
     "https://res.cloudinary.com/daivwknum/raw/upload/v1769033500/DSGxxXbDbcw_hza5ee",
