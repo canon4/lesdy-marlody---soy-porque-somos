@@ -18,6 +18,7 @@ import FloatingWhatsApp from "./FloatingWhatsApp";
 import FlotingSocialNetwork from "./FlotingSocialNetwork";
 import ImageCarousel from "./ImageCarousel";
 import { ASSETS } from "../constants";
+import TribalSidebar from "./TribalSidebar";
 
 type ViewState = "home" | "proposals" | "curul" | "recognitions";
 
@@ -46,7 +47,9 @@ const Home = () => {
       <main>
         {currentView === "home" ? (
           <>
+            {/* <TribalSidebar opacity={0.07}> */}
             <TopBanner />
+
             <div className="lg:hidden ">
               <ImageCarousel
                 images={ASSETS.images.imageCarousel}
@@ -60,8 +63,9 @@ const Home = () => {
             <Pillars />
             <Axes />
             <Gallery />
+            {/* </TribalSidebar> */}
             <JoinMovement />
-            <PoliticalClosing />
+            {/* <PoliticalClosing /> */}
           </>
         ) : currentView === "proposals" ? (
           <ProposalsPage onBack={() => handleNavigate("home")} />

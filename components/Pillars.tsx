@@ -172,7 +172,7 @@ const Pillars: React.FC = () => {
           })}
         </div>
 
-        {/* Political Closing */}
+        {/* Political Closing
         <div className="text-center">
           <div className="relative inline-block max-w-4xl mx-auto">
             <div className="absolute -top-6 -left-6 text-gold opacity-30">
@@ -182,7 +182,7 @@ const Pillars: React.FC = () => {
               “Una mujer que cumple su palabra no promete: responde.”
             </blockquote>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
