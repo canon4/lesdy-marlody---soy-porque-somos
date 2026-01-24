@@ -19,6 +19,8 @@ export const ASSETS = {
       "https://res.cloudinary.com/daivwknum/image/upload/e_trim/v1769191830/13_to4ogh.png",
     turismo:
       "https://res.cloudinary.com/daivwknum/image/upload/e_trim/v1769191830/12_kphsay.png",
+    trival:
+      "https://res.cloudinary.com/daivwknum/image/upload/v1769029705/Trival_PNJ_yvmpkc.png",
   },
   images: {
     main: "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/marlody_imagen_01.jpg",
@@ -47,7 +49,7 @@ export const ASSETS = {
     ],
   },
   video:
-    "https://res.cloudinary.com/daivwknum/raw/upload/v1769033500/DSGxxXbDbcw_hza5ee",
+    "https://res.cloudinary.com/daivwknum/video/upload/v1769272698/Desde_la_Amazon%C3%ADa_levanto_mi_voz_por_la_dignidad_la_vida_y_la_reparaci%C3%B3n_integral_de_mi_gent_uakgcx.mp4",
 };
 
 export const CONTENT = {
