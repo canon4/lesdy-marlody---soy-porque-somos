@@ -12,11 +12,12 @@ const PoliticaDePrivacidad = () => {
           <strong>1. Responsable del tratamiento</strong>
           <br />
           El responsable del tratamiento de los datos personales es
-          <strong> [...]</strong>, persona natural, en Colombia.
+          <strong> [Lesdy Marlody Rodriguez Quiñones]</strong>, persona natural,
+          en Colombia.
         </p>
 
         <p>
-          Correo de contacto: <strong>[...]</strong>
+          Correo de contacto: <strong>[Lesdymarlody@gmail.com]</strong>
         </p>
 
         <p>

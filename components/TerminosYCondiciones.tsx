@@ -9,12 +9,13 @@ const TerminosYCondiciones = () => {
         <p>
           <strong>1. Identificación del responsable</strong>
           <br />
-          Este sitio web es operado por <strong>[...]</strong>, persona natural,
+          Este sitio web es operado por{" "}
+          <strong>[Lesdy Marlody Rodriguez Quiñones]</strong>, persona natural,
           en el marco de una campaña política desarrollada en Colombia.
         </p>
 
         <p>
-          Correo de contacto: <strong>[...]</strong>
+          Correo de contacto: <strong>[Lesdymarlody@gmail.com]</strong>
         </p>
 
         <p>
