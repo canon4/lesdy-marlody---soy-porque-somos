@@ -27,7 +27,7 @@ export const ASSETS = {
     heroBgMobile:
       "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/marlody_imagen_01.jpeg",
     heroDesktop:
-      "https://storage.googleapis.com/ai-studio-bucket-212404626118-us-west1/WEBS/marlody-web/banner_desk_marlody.jpeg",
+      "https://res.cloudinary.com/dknuryv7i/image/upload/v1772304402/Envio_2_fri6dl.jpg",
     heroMobile:
       "https://res.cloudinary.com/daivwknum/image/upload/v1769030319/PORTADA_CEL_yfd9wc.png",
     secondary:
