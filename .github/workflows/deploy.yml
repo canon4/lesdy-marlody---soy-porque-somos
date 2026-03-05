@@ -33,3 +33,6 @@ jobs:
           source: "dist/*" # Solo enviamos lo construido
           target: "/var/www/lesdy-marlody---soy-porque-somos"
           strip_components: 1 # Para que los archivos entren directo a marlody_web
+
+
+          #holagit
